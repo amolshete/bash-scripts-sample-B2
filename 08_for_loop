@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+users="dhanush dharshani krithika Selvaganesh"
+
+
+for username in $users
+do
+   echo "adding $username"
+   useradd -m -s /bin/bash $username
+   echo "user add is done for $username"
+   id $username
+   sleep 1
+done

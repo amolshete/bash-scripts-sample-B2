@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+for var in Jenkins AWS ArgoCD Kubernetes Docker
+do
+   echo "Devops skill which I know are $var"
+done
